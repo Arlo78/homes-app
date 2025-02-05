@@ -22,6 +22,10 @@ import { ActivatedRoute } from '@angular/router';
           <li>Does this location have wifi: {{housingLocation?.wifi}}</li>
           <li>Does this location have laundry: {{housingLocation?.laundry}}</li>
         </ul>  
+      </section> 
+      <section class="listing-apply">
+        <h2 class="section-heading">Apply now to live here</h2>
+        <button class="primary" type="button">Apply now</button> 
       </section>   
     </article>
   `,
